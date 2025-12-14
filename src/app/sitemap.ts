@@ -5,10 +5,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const supabase = createClient()
 
     // Fetch all posts
-    const { data: posts } = await supabase
-        .from('posts')
-        .select('slug, published_at')
-        .order('published_at', { ascending: false })
+    let posts: { slug: string; published_at: string }[] = []
+    try {
+        const { data } = await supabase
+            .from('posts')
+            .select('slug, published_at')
+            .order('published_at', { ascending: false })
+        posts = data || []
+    } catch (error) {
+        console.warn('Failed to fetch posts for sitemap:', error)
+        // Continue with static routes only
+    }
 
     const baseUrl = 'https://www.lunaalba.com' // Replace with your actual domain
 
