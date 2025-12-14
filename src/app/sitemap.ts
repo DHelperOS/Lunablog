@@ -2,11 +2,10 @@ import { MetadataRoute } from 'next'
 import { createClient } from '@/lib/supabase'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-    const supabase = createClient()
-
     // Fetch all posts
     let posts: { slug: string; published_at: string }[] = []
     try {
+        const supabase = createClient()
         const { data } = await supabase
             .from('posts')
             .select('slug, published_at')
