@@ -91,31 +91,7 @@ export function HeroSection() {
           </Link>
         </motion.div>
 
-        {/* Stats or Trust Indicators could go here */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1 }}
-          className="mt-16 flex items-center gap-8 text-sm text-gray-500"
-        >
-          <div className="flex items-center gap-2">
-            <div className="flex -space-x-2">
-              {[1, 2, 3, 4].map((i) => (
-                <div
-                  key={i}
-                  className="h-8 w-8 rounded-full border-2 border-[#0A0A0A] bg-gray-600"
-                />
-              ))}
-            </div>
-            <span>2,000+ 사전예약</span>
-          </div>
-          <div className="h-4 w-px bg-white/10" />
-          <div className="flex items-center gap-1">
-            <Star className="h-4 w-4 fill-yellow-500 text-yellow-500" />
-            <span className="font-bold text-white">4.9</span>
-            <span>(500+ 리뷰)</span>
-          </div>
-        </motion.div>
+
       </div>
     </section>
   );
