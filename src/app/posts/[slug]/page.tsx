@@ -17,6 +17,7 @@ export async function generateMetadata(
     { params }: Props,
 ): Promise<Metadata> {
     const { slug } = await params
+
     const supabase = createClient();
     const { data: post } = await supabase
         .from("posts")
@@ -51,6 +52,7 @@ export async function generateMetadata(
 
 export default async function PostPage({ params }: Props) {
     const { slug } = await params;
+
     const supabase = createClient();
     const { data: post } = await supabase
         .from("posts")
@@ -72,7 +74,7 @@ export default async function PostPage({ params }: Props) {
             <header className="mb-12 text-center">
                 <div className="mb-6 flex items-center justify-center gap-4 text-sm text-white/60">
                     <span className="flex items-center gap-1">
-                        <Calendar className="h-4 w-4" /> {new Date(post.published_at).toLocaleDateString()}
+                        <Calendar className="h-4 w-4" /> {new Date(post.published_at).getFullYear() + ". " + (new Date(post.published_at).getMonth() + 1) + ". " + new Date(post.published_at).getDate() + "."}
                     </span>
                     <span className="flex items-center gap-1">
                         <User className="h-4 w-4" /> Luna Editor
