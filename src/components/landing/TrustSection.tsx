@@ -19,14 +19,14 @@ export function TrustSection() {
                             <span>Trust System</span>
                         </div>
                         <h2 className="mb-6 text-4xl font-bold leading-tight md:text-5xl">
-                            밤알바, 프로필 사진만
+                            야간 업무, 프로필 배경만
                             <br />
                             보고 믿을 수 있나요?
                         </h2>
                         <p className="mb-8 text-lg text-gray-400">
-                            안전한 여성알바, 야간알바를 위한 신뢰도 검증 시스템.
+                            안전한 전문 야간 구인구직을 위한 신뢰도 검증 시스템.
                             <br />
-                            루나알바는 활동 내역을 기반으로 신뢰도를 점수화합니다.
+                            루나는 활동 내역을 기반으로 신뢰도를 점수화합니다.
                         </p>
 
                         <div className="space-y-6">
@@ -36,7 +36,7 @@ export function TrustSection() {
                                 </div>
                                 <div>
                                     <h3 className="mb-1 text-xl font-bold">인증 완료된 회원</h3>
-                                    <p className="text-gray-400">성인인증 및 철저한 프로필 검증을 통과한 회원만 활동 가능합니다.</p>
+                                    <p className="text-gray-400">본인인증 및 철저한 프로필 검증을 통과한 회원만 활동 가능합니다.</p>
                                 </div>
                             </div>
                             <div className="flex gap-4">
@@ -64,8 +64,8 @@ export function TrustSection() {
                                 <div className="flex items-center gap-4">
                                     <div className="h-16 w-16 rounded-full bg-gray-600" />
                                     <div>
-                                        <div className="text-lg font-bold">강남 퀸스테이지</div>
-                                        <div className="text-sm text-gray-400">유흥주점 • 서울 강남구</div>
+                                        <div className="text-lg font-bold">강남 퀸비스트로</div>
+                                        <div className="text-sm text-gray-400">전문 서비스 • 서울 강남구</div>
                                     </div>
                                 </div>
                                 <div className="text-right">

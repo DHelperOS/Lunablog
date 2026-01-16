@@ -17,7 +17,7 @@ export function Header() {
                         />
                     </div>
                     <span className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-rose-200 via-rose-100 to-violet-200">
-                        루나알바
+                        루나
                     </span>
                 </Link>
             </div>

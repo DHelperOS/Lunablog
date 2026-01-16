@@ -6,14 +6,14 @@ import { Github, Twitter, Instagram } from "lucide-react";
 
 export function Sidebar() {
     const categories = [
-        { name: "밤의 편지", count: 12, href: "/category/night-letter" },
-        { name: "새벽의 팁", count: 8, href: "/category/dawn-tips" },
-        { name: "별별 이야기", count: 15, href: "/category/star-stories" },
-        { name: "이벤트", count: 5, href: "/category/events" },
+        { name: "야간 업무 가이드", count: 12, href: "/category/night-letter" },
+        { name: "성과 보너스 가이드", count: 8, href: "/category/dawn-tips" },
+        { name: "성공 사례 공유", count: 15, href: "/category/star-stories" },
+        { name: "공지사항", count: 5, href: "/category/events" },
     ];
 
     const tags = [
-        "알바꿀팁", "야간알바", "편의점", "카페", "안전", "급여", "휴식", "일상"
+        "전문가이드", "야간업무", "편의점", "카페", "안전", "수익", "휴식", "일상"
     ];
 
     return (
@@ -30,10 +30,10 @@ export function Sidebar() {
                         />
                     </div>
                 </div>
-                <h3 className="mb-2 text-xl font-bold text-white tracking-tight">루나알바</h3>
+                <h3 className="mb-2 text-xl font-bold text-white tracking-tight">루나</h3>
                 <p className="mb-6 text-sm font-light text-white/60 leading-relaxed">
                     당신의 밤이 빛나는 순간,<br />
-                    알바생과 사장님을 위한 커뮤니티
+                    파트너와 경영진을 위한 전문 커뮤니티
                 </p>
                 <div className="flex gap-4">
                     <Button variant="ghost" size="sm" className="h-8 w-8 rounded-full p-0 text-white/40 hover:text-rose-200 hover:bg-white/5 transition-all">

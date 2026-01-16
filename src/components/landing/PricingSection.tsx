@@ -48,10 +48,10 @@ export function PricingSection() {
                         viewport={{ once: true }}
                         className="mb-4 text-3xl font-bold md:text-5xl"
                     >
-                        루나 밤알바 플랜
+                        루나 멤버십 플랜
                     </motion.h2>
                     <p className="text-gray-400">
-                        야간알바, 여성알바를 위한 합리적인 가격으로 최상의 효과를 경험하세요.
+                        야간 업무 및 전문직 종사자를 위한 멤버십 혜택을 경험하세요.
                     </p>
                 </div>
 
@@ -64,8 +64,8 @@ export function PricingSection() {
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
                             className={`relative flex flex-col rounded-2xl border p-6 transition-all ${plan.recommended
-                                    ? "border-purple-500 bg-purple-900/10 shadow-lg shadow-purple-900/20"
-                                    : "border-white/10 bg-white/5 hover:border-white/20"
+                                ? "border-purple-500 bg-purple-900/10 shadow-lg shadow-purple-900/20"
+                                : "border-white/10 bg-white/5 hover:border-white/20"
                                 }`}
                         >
                             {plan.recommended && (
@@ -93,8 +93,8 @@ export function PricingSection() {
                             <button
                                 onClick={() => setSelectedPlan(plan.name)}
                                 className={`w-full rounded-xl py-3 text-sm font-bold transition-colors ${plan.recommended
-                                        ? "bg-white text-black hover:bg-gray-100"
-                                        : "border border-white/20 bg-transparent text-white hover:bg-white/10"
+                                    ? "bg-white text-black hover:bg-gray-100"
+                                    : "border border-white/20 bg-transparent text-white hover:bg-white/10"
                                     }`}
                             >
                                 {plan.recommended ? "선택됨" : "선택하기"}

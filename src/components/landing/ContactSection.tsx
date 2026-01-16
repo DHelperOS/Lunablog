@@ -26,7 +26,7 @@ export function ContactSection() {
                         </div>
                         <h3 className="mb-2 text-lg font-bold">카카오톡 채널</h3>
                         <p className="mb-4 text-sm text-gray-400">실시간 상담 하기</p>
-                        <span className="font-bold">@루나알바</span>
+                        <span className="font-bold">@루나</span>
                     </div>
 
                     <div className="flex flex-col items-center rounded-2xl bg-[#111] p-8 text-center transition-transform hover:-translate-y-1">
@@ -42,20 +42,20 @@ export function ContactSection() {
                 {/* Footer Bottom */}
                 <div className="border-t border-white/10 pt-12">
                     <div className="mb-8">
-                        <h2 className="mb-2 text-2xl font-bold">루나알바</h2>
-                        <p className="text-gray-400">Anywhere, Anytime. 완벽한 프리미엄 밤알바 구인구직 플랫폼.</p>
+                        <h2 className="mb-2 text-2xl font-bold">루나</h2>
+                        <p className="text-gray-400">Anywhere, Anytime. 완벽한 프리미엄 야간 전문 구인구직 플랫폼.</p>
                     </div>
 
                     <div className="grid gap-8 text-sm text-gray-500 md:grid-cols-2">
                         <div className="space-y-2">
-                            <p>밤컴퍼니(Bam Company) | 대표: 윤미나</p>
+                            <p>루나 네트웍스(Luna Networks) | 대표: 윤미나</p>
                             <p>사업자 등록번호: 611-48-01140 | 직업정보제공사업 신고번호: J1511020250008</p>
                             <p>주소: 경기도 수원시 권선구 경수대로 384번길 60</p>
                         </div>
                         <div className="space-y-2 md:text-right">
                             <p>이메일: help@luna-job.com</p>
                             <p>고객센터: 070-8998-1228</p>
-                            <p className="mt-4">© 2026 Bam Company. All rights reserved.</p>
+                            <p className="mt-4">© 2026 Luna Networks. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

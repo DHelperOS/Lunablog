@@ -39,7 +39,7 @@ export function HeroSection() {
           당신이 빛나는
           <br />
           <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
-            밤알바, 루나알바
+            전문 야간 구인구직, 루나
           </span>
         </motion.h1>
 
@@ -49,11 +49,11 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mb-8 max-w-2xl text-lg text-gray-400 md:text-xl"
         >
-          루나알바 - 밤알바, 야간알바, 여성알바, 여자알바 전문 구인구직 플랫폼.
+          루나 - 전문 야간 구인구직, 안심 일자리 플랫폼.
           <br className="hidden md:block" />
           PC와 모바일, 웹과 앱 어디서든 완벽하게.
           <br />
-          당신의 프라이버시를 지키는 프리미엄 밤알바 플랫폼.
+          당신의 프라이버시를 지키는 프리미엄 야간 전문 매칭 플랫폼.
         </motion.p>
 
         <motion.div

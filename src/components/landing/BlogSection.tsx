@@ -34,7 +34,7 @@ export function BlogSection({ posts }: BlogSectionProps) {
                         루나 매거진
                     </motion.h2>
                     <p className="text-gray-400">
-                        유흥알바, 밤알바의 모든 정보와 트렌드를 확인하세요.
+                        전문 야간 업무 정보와 최신 트렌드를 확인하세요.
                     </p>
                 </div>
 

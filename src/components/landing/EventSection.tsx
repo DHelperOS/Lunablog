@@ -31,7 +31,7 @@ export function EventSection() {
                         transition={{ delay: 0.1 }}
                         className="mb-12 max-w-2xl text-xl text-gray-300"
                     >
-                        밤알바, 여성알바 사전 예약자 전원에게 쏟아지는
+                        야간 전문 서비스 사전 예약자 전원에게 쏟아지는
                         <br />
                         <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text font-bold text-transparent">
                             총 20만 포인트 혜택

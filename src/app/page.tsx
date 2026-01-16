@@ -23,11 +23,11 @@ export default async function Home() {
       <HeroSection />
       <BlogSection posts={posts || []} />
       <FeatureSection />
-      <EventSection />
+      {/* <EventSection /> */}
       <CommunitySection />
       <TrustSection />
       <AiMatchingSection />
-      <PricingSection />
+      {/* <PricingSection /> */}
       <ContactSection />
     </main>
   );

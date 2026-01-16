@@ -11,8 +11,8 @@ const features = [
     },
     {
         icon: <Hand className="h-8 w-8 text-pink-400" />,
-        title: "밤알바 찔러보기",
-        description: "부담 없이 '찔러보기' 기능으로 가볍게 의사를 표현해보세요.",
+        title: "간편 지원하기",
+        description: "부담 없이 '간편 지원' 기능으로 가볍게 의사를 표현해보세요.",
     },
     {
         icon: <MessageCircle className="h-8 w-8 text-blue-400" />,
@@ -37,7 +37,7 @@ export function FeatureSection() {
                         viewport={{ once: true }}
                         className="mb-4 text-3xl font-bold md:text-5xl"
                     >
-                        번호 없이 안전한 밤알바
+                        개인정보 보호 안심 야간 매칭
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -46,7 +46,7 @@ export function FeatureSection() {
                         transition={{ delay: 0.2 }}
                         className="text-gray-400 md:text-lg"
                     >
-                        여성알바, 야간알바를 위한 안전한 프라이버시 보호 시스템
+                        전문 야간 구인구직을 위한 철저한 프라이버시 보호 시스템
                     </motion.p>
                 </div>
 

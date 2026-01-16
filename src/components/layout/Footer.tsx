@@ -17,11 +17,11 @@ export function Footer() {
                                 />
                             </div>
                             <h3 className="text-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-rose-200 via-rose-100 to-violet-200">
-                                루나알바
+                                루나
                             </h3>
                         </div>
                         <p className="text-sm font-light text-white/50 leading-relaxed">
-                            "당신의 밤이 빛나는 순간, 루나알바"
+                            "전문 야간 인재 매칭의 새로운 기준, 루나"
                         </p>
                     </div>
                 </div>            </div>
@@ -36,7 +36,7 @@ export function Footer() {
                     <div className="space-y-1.5 md:text-right">
                         <p>고객센터: 070-8998-1228</p>
                         <p>이메일: bamstar.help@gmail.com</p>
-                        <p className="mt-4">© {new Date().getFullYear()} 루나알바. All rights reserved.</p>
+                        <p className="mt-4">© {new Date().getFullYear()} 루나 네트웍스. All rights reserved.</p>
                     </div>
                 </div>
             </div>

@@ -64,7 +64,7 @@ export async function GET(request: NextRequest) {
                     content,
                     slug,
                     excerpt: content.substring(0, 150) + '...',
-                    category: type === 'seeker' ? '구직자 가이드' : '사장님 꿀팁',
+                    category: type === 'seeker' ? '구직자 가이드' : '운영진 가이드',
                     tags: [type, 'AI', '자동생성'],
                     published_at: new Date().toISOString(),
                 }

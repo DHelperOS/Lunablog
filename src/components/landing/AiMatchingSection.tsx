@@ -23,7 +23,7 @@ export function AiMatchingSection() {
                         viewport={{ once: true }}
                         className="mb-6 text-4xl font-bold md:text-6xl"
                     >
-                        나한테 딱 맞는 밤알바,
+                        나에게 최적화된 야간 일자리,
                         <br />
                         <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
                             AI가 찾아줄게요.
@@ -54,7 +54,7 @@ export function AiMatchingSection() {
                                 </li>
                                 <li className="flex items-center gap-3 text-gray-300">
                                     <DollarSign className="h-5 w-5 text-gray-500" />
-                                    희망 급여 & 조건 매칭
+                                    희망 수익 & 조건 매칭
                                 </li>
                                 <li className="flex items-center gap-3 text-gray-300">
                                     <Clock className="h-5 w-5 text-gray-500" />
