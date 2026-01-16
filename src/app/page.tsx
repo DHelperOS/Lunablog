@@ -21,7 +21,7 @@ export default async function Home() {
   return (
     <main className="min-h-screen bg-[#0A0A0A] text-white">
       <HeroSection />
-      <BlogSection posts={posts || []} />
+      {/* <BlogSection posts={posts || []} /> */}
       <FeatureSection />
       {/* <EventSection /> */}
       <CommunitySection />
